@@ -79,7 +79,7 @@ The following dependencies are required for this assignment and were likely alre
 
 - Your directory tree should look something like this:
 
-  ![directory-tree](Images/tree.png)
+  ![directory-tree](https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-fin-pt-07-2021-u-c/-/raw/master/02-Homework/19-Blockchain-Python/Instructions/Images/tree.png)
 
 ### 2. Setup constants
 
@@ -114,7 +114,7 @@ The following dependencies are required for this assignment and were likely alre
 
 - When done properly, the final object should look something like this (there are only 3 children each in this image):
 
-  ![wallet-object](Images/wallet-object.png)
+  ![wallet-object](https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-fin-pt-07-2021-u-c/-/raw/master/02-Homework/19-Blockchain-Python/Instructions/Images/wallet-object.png)
 
 - You should now be able to select child accounts (and thus, private keys) by accessing items in the `coins` dictionary like so: `coins[COINTYPE][INDEX]['privkey']`.
 
@@ -189,7 +189,7 @@ The following dependencies are required for this assignment and were likely alre
 
     - Screenshot the confirmation of the transaction like so:
 
-      ![btc-test](Images/btc-test.png)
+      ![btc-test](https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-fin-pt-07-2021-u-c/-/raw/master/02-Homework/19-Blockchain-Python/Instructions/Images/btc-test.png)
 
   - **Local PoA Ethereum transaction**
 
@@ -214,7 +214,7 @@ The following dependencies are required for this assignment and were likely alre
     - Send a transaction from the pre-funded address within the wallet to another, then copy the `txid` into
       MyCrypto's TX Status, and screenshot the successful transaction like so:
 
-      ![eth-test](Images/eth-test.png)
+      ![eth-test](https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-fin-pt-07-2021-u-c/-/raw/master/02-Homework/19-Blockchain-Python/Instructions/Images/eth-test.png)
 
 
 ### Deriving a wallet
