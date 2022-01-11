@@ -1,7 +1,5 @@
 <h1>Blockchain with Python </h1>
 
-![](https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-fin-pt-07-2021-u-c/-/raw/master/02-Homework/19-Blockchain-Python/Instructions/Images/newtons-coin-cradle.jpg)
-
 ## Background
 
 Your new startup is focusing on building a portfolio management system that supports not only traditional assets
@@ -77,10 +75,6 @@ The following dependencies are required for this assignment and were likely alre
 
 - Create a file called `wallet.py` -- this will be your universal wallet script. You can use [this starter code](Starter-Code/wallet.py) as a starting point.
 
-- Your directory tree should look something like this:
-
-  ![directory-tree](https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-fin-pt-07-2021-u-c/-/raw/master/02-Homework/19-Blockchain-Python/Instructions/Images/tree.png)
-
 ### 2. Setup constants
 
 - In a separate file, `constants.py`, set the following constants:
@@ -111,10 +105,6 @@ The following dependencies are required for this assignment and were likely alre
     - Format (`--format=json`) to parse the output into a JSON object using `json.loads(output)`
 
 - Create a dictionary object called `coins` that uses the `derive_wallets` function to derive `ETH` and `BTCTEST` wallets.
-
-- When done properly, the final object should look something like this (there are only 3 children each in this image):
-
-  ![wallet-object](https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-fin-pt-07-2021-u-c/-/raw/master/02-Homework/19-Blockchain-Python/Instructions/Images/wallet-object.png)
 
 - You should now be able to select child accounts (and thus, private keys) by accessing items in the `coins` dictionary like so: `coins[COINTYPE][INDEX]['privkey']`.
 
@@ -187,9 +177,6 @@ The following dependencies are required for this assignment and were likely alre
 
     - Send a transaction to another testnet address (either one of your own, or the faucet's).
 
-    - Screenshot the confirmation of the transaction like so:
-
-      ![btc-test](https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-fin-pt-07-2021-u-c/-/raw/master/02-Homework/19-Blockchain-Python/Instructions/Images/btc-test.png)
 
   - **Local PoA Ethereum transaction**
 
@@ -212,9 +199,7 @@ The following dependencies are required for this assignment and were likely alre
       or one of the `node` keystore files.
 
     - Send a transaction from the pre-funded address within the wallet to another, then copy the `txid` into
-      MyCrypto's TX Status, and screenshot the successful transaction like so:
-
-      ![eth-test](https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-fin-pt-07-2021-u-c/-/raw/master/02-Homework/19-Blockchain-Python/Instructions/Images/eth-test.png)
+      MyCrypto's TX Status.
 
 
 ### Deriving a wallet
