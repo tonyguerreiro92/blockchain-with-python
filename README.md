@@ -57,7 +57,7 @@ Ethereum keys are the same format on any network, so the Ethereum keys should wo
 
 Your directory tree should look something like this:
 
-![](https://github.com/NinoslavVasic/Multi-Blockchain-Wallet-in-Python/blob/master/screenshots/tree.png)
+![](https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-fin-pt-07-2021-u-c/-/raw/master/02-Homework/19-Blockchain-Python/Instructions/Images/tree.png)
 
 ### Setup constants file to manage coins
 
@@ -79,6 +79,8 @@ Your directory tree should look something like this:
 
 ### Deriving a wallet
 
+![](/screenshots/derive.png)
+![](/screenshots/derive-0.png)
 ![](/screenshots/derive-1.png)
 
 ## Executing test transactions by calling the functions from `wallet.py` 
@@ -89,12 +91,16 @@ Your directory tree should look something like this:
 
 - Do the transactions
 
+![](/screenshots/btc-transaction-1.png)
+    
 ### ETH transaction
 
 - Fund the account with Metamask and Ganache
     
 - Do the transactions
 
+![](/screenshots/eth-transaction-0.png)
+![](/screenshots/eth-transaction-1.png)
 
 
 
